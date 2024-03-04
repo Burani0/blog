@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Branie's Blog</title>
+  <link href="css/bootstrap-5.3.3-dist/stylesheet.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap-5.3.3-dist/css/bootstrap.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      margin-bottom: 20px;
+    }
+
+    .card {
+    
+   background-color: #FEFBF6;
+    
+      margin-bottom: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-title {
+      transition: color 0.3s ease;
+    }
+
+    .card:hover .card-title {
+      color: #007bff;
+    }
+
+    .sidebar {
+      background-color: #fff;
+      color: #333;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #ddd; 
+    }
+    .sidebar h2 {
+      margin-top: 0;
+    }
+    .content {
+      padding: 20px;
+    }
+    .content h1 {
+      color: #333;
+    }
+    @media (min-width: 992px) {
+      .right-sidebar {
+        order: 1;
+      }
+    }
+
+    
+  </style>
+</head>
+
+
+
+<body style="background-color: #E4F1FF;">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Blogs
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="blog.1.html">Introduction to SE</a></li>
+              <li><a class="dropdown-item" href="blog2.html">Leadership</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">SUMMARY</h5>
+            <p class="card-text">My Experience in the Introduction to Software Development class
+              The class was started on 19th of February and it is Conducted by Samson Kapeyi who is funny and talented
+              teacher.
+              basically the class was about introduction of html and css</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">GITHUB</h5>
+            <p class="card-text"> I learnt about that I could share a platform with the best software engineers of all
+              times which is GitHub. I
+              am actually very happy, excited to be doing the things I thought geniuses could only do. This makes me
+              feel
+              special
+              and very excited to be upgrading in my career</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">HTML</h5>
+          <p class="card-text">It was quite an overwhelming and explorative experience. The most interesting thing is
+            that I could now access the Google code as I could now access the Google code as I was taught the inspection
+            option. I learned that HTML
+            Editors,
+            basics, attributes and quotations. Fine I was already exposed to some of them but this class made me get
+            exposed to
+            more things for example in the quotations such as the "&lt;cite&gt;" tag, the "&lt;bdo&gt;" tag</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">HOW THE INTERNET WORKS</h5>
+            <p class="card-text"> I found out that 75% of the internet is not wireless. I really thought that the
+              internet
+              is wireless but
+              through this class I got to know that optical fiber cables are also employed to enable proper
+              functionality of
+              the
+              internet</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">CSS</h5>
+            <p class="card-text">In this class I learned how to apply all those beautiful features I view on various
+              websites
+              onto my personal built website through the extensive assistance of CSS which includes Bootstrap
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="content">
+        
+        </div>
+      </div>
+      <div class="col-lg-4 order-first order-lg-last right-sidebar">
+        <div class="sidebar mt-3 mt-lg-0">
+          <h2>Categories</h2>
+          <ul>
+            <li><a href="blog.1.html">Intro to software engineering</a></li>
+            <li><a href="blog2.html">leadership</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <section >
+    <div class="container my-5 py-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-12 col-lg-10">
+          <div class="card text-dark">
+            <div class="card-body p-4">
+              <h4 class="mb-0">Recent comments</h4>
+              <p class="fw-light mb-4 pb-2">Latest Comments section by users</p>
+  
+              <div class="d-flex flex-start">
+                <img class="rounded-circle shadow-1-strong me-3"
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(23).webp" alt="avatar" width="60"
+                  height="60" />
+                <div>
+                  <h6 class="fw-bold mb-1">Maggie Marsh</h6>
+                  <div class="d-flex align-items-center mb-3">
+                    <p class="mb-0">
+                      February 28, 2024
+                      <!-- <span class="badge bg-primary">Pending</span> -->
+                    </p>
+                    <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
+                    <a href="#!" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
+                    <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
+                  </div>
+                  <p class="mb-0">
+                    I really got a clear understanding of things
+                  </p>
+                </div>
+              </div>
+            </div>
+  
+            <hr class="my-0" />
+  
+            <div class="card-body p-4">
+              <div class="d-flex flex-start">
+                <img class="rounded-circle shadow-1-strong me-3"
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(26).webp" alt="avatar" width="60"
+                  height="60" />
+                <div>
+                  <h6 class="fw-bold mb-1">Lara Stewart</h6>
+                  <div class="d-flex align-items-center mb-3">
+                    <p class="mb-0">
+                      February 15, 2024
+                    </p>
+                    <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
+                    <a href="#!" class="text-success"><i class="fas fa-redo-alt ms-2"></i></a>
+                    <a href="#!" class="link-danger"><i class="fas fa-heart ms-2"></i></a>
+                  </div>
+                  <p class="mb-0">
+                 It gave me a quick layout and summary of what my nextproject is about👌
+                  </p>
+                </div>
+              </div>
+            </div>
+  
+            <hr class="my-0" style="height: 1px;" />
+  
+            <div class="card-body p-4">
+              <div class="d-flex flex-start">
+                <img class="rounded-circle shadow-1-strong me-3"
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(33).webp" alt="avatar" width="60"
+                  height="60" />
+                <div>
+                  <h6 class="fw-bold mb-1">Alexa Bennett</h6>
+                  <div class="d-flex align-items-center mb-3">
+                    <p class="mb-0">
+                      January 24, 2024
+                    </p>
+                    <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
+                    <a href="#!" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
+                    <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
+                  </div>
+                  <p class="mb-0">
+                   Thanks for the documentation 
+                  </p>
+                </div>
+              </div>
+            </div>
+  
+            <hr class="my-0" />
+  
+            <div class="card-body p-4">
+              <div class="d-flex flex-start">
+                <img class="rounded-circle shadow-1-strong me-3"
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(24).webp" alt="avatar" width="60"
+                  height="60" />
+                <div>
+                  <h6 class="fw-bold mb-1">Betty Walker</h6>
+                  <div class="d-flex align-items-center mb-3">
+                    <p class="mb-0">
+                      January 30, 2024
+                    </p>
+                    <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
+                    <a href="#!" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
+                    <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
+                  </div>
+                  <p class="mb-0">
+                👍
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>About Me</h5>
+          <p>Burani Patience Patricia<br>Student @ GroundBreakers</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.1.html">Blogs</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Contact Me</h5>
+          <p>Email: bpatricia@student.refactory.academy</p>
+          <p>Phone: +256770323383</p>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center">&copy; 2024 Burani's blog. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="css/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
